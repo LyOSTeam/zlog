@@ -51,6 +51,8 @@ install(TARGETS
         RUNTIME DESTINATION bin
 )
 
+target_include_directories(zlog PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
 install(FILES
         zlog.h
         COMPONENT zlog
