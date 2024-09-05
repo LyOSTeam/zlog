@@ -14,10 +14,10 @@
 # limitations under the License.
 #/
 
-cmake_minimum_required(VERSION 2.8.5)
+cmake_minimum_required(VERSION 3.10)
 
 message(STATUS "path : ${CMAKE_FIND_ROOT_PATH}")
-project(zlog)
+project(zlog VERSION 1.2.12)
 message(STATUS "path : ${CMAKE_FIND_ROOT_PATH}")
 
 set(CMAKE_MODULE_PATH ${zlog_SOURCE_DIR}/cmake)
